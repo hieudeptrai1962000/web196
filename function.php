@@ -1,15 +1,4 @@
-<?php
-/*
-▒█▀▀█ ░▀░ █▀▀▄ █░░█ 　 ▒█▀▄▀█ ░▀░ █▀▀▄ █░░█ 　 ▒█▀▀█ █▀▀█ █▀▄▀█ █▀▀█ █░░█ ▀▀█▀▀ █▀▀ █▀▀█ 
-▒█▀▀▄ ▀█▀ █░░█ █▀▀█ 　 ▒█▒█▒█ ▀█▀ █░░█ █▀▀█ 　 ▒█░░░ █░░█ █░▀░█ █░░█ █░░█ ░░█░░ █▀▀ █▄▄▀ 
-▒█▄▄█ ▀▀▀ ▀░░▀ ▀░░▀ 　 ▒█░░▒█ ▀▀▀ ▀░░▀ ▀░░▀ 　 ▒█▄▄█ ▀▀▀▀ ▀░░░▀ █▀▀▀ ░▀▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ 
- * Siêu thị máy tính BINH MINH COMPUTER
- * Copyright 2015, All Rights Reserved.
- * @author Nhom 11 HTTT K7 HAUI
- * @email webmaster@binhminhcomputer.com
- * @link http://binhminhcomputer.com
- */
-?>
+
 
 <?php
 function EncodeSpecialChar($content) {  //insert table
