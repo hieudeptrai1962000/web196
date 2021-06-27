@@ -1,15 +1,4 @@
-﻿<?php
-/*
-▒█▀▀█ ░▀░ █▀▀▄ █░░█ 　 ▒█▀▄▀█ ░▀░ █▀▀▄ █░░█ 　 ▒█▀▀█ █▀▀█ █▀▄▀█ █▀▀█ █░░█ ▀▀█▀▀ █▀▀ █▀▀█ 
-▒█▀▀▄ ▀█▀ █░░█ █▀▀█ 　 ▒█▒█▒█ ▀█▀ █░░█ █▀▀█ 　 ▒█░░░ █░░█ █░▀░█ █░░█ █░░█ ░░█░░ █▀▀ █▄▄▀ 
-▒█▄▄█ ▀▀▀ ▀░░▀ ▀░░▀ 　 ▒█░░▒█ ▀▀▀ ▀░░▀ ▀░░▀ 　 ▒█▄▄█ ▀▀▀▀ ▀░░░▀ █▀▀▀ ░▀▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ 
- * Siêu thị máy tính BINH MINH COMPUTER
- * Copyright 2015, All Rights Reserved.
- * @author Nhom 11 HTTT K7 HAUI
- * @email webmaster@binhminhcomputer.com
- * @link http://binhminhcomputer.com
- */
-?>
+﻿
 <?php 
 ini_set('display_errors', 0);
 if(!isset($_SESSION))
@@ -28,45 +17,45 @@ if(!isset($_SESSION))
 				$sql="SELECT * from hang where id_hang='$id'";
 				$kq=mysql_query($sql);
 				$r=mysql_fetch_array($kq);	
-				$title=$r["tenhang"].' - Bình Minh Computer';
+				$title=$r["tenhang"].' -';
 			}
 			if($page=='nsp'){
 				$id=$_GET["idn"];
 				$sql="SELECT * from nhomhang where id_nhom='$id'";
 				$kq=mysql_query($sql);
 				$r=mysql_fetch_array($kq);	
-				$title=$r["tennhom"].' - Bình Minh Computer';
+				$title=$r["tennhom"].' - ';
 			}
 			if($page=='lsp'){
 				$id=$_GET["idl"];
 				$sql="SELECT * from loaihang where id_loai='$id'";
 				$kq=mysql_query($sql);
 				$r=mysql_fetch_array($kq);	
-				$title=$r["tenloaisp"].' - Bình Minh Computer';
+				$title=$r["tenloaisp"].' -';
 			}
 			if($page=='gioi-thieu'){
-				$title='Giới thiệu - Bình Minh Computer';
+				$title='Giới thiệu -';
 			}
 			if($page=='khuyen-mai'){
-				$title='Khuyến mãi - Bình Minh Computer';
+				$title='Khuyến mãi - ';
 			}
 			if($page=='lien-he'){
-				$title='Liên hệ với chúng tôi - Bình Minh Computer';
+				$title='Liên hệ với chúng tôi - ';
 			}
 			if($page=='gh'){
-				$title='Giỏ hàng - Bình Minh Computer';
+				$title='Giỏ hàng - ';
 			}
 			if($page=='tin-tuc'){
-				$title='Tin tức - Bình Minh Computer';
+				$title='Tin tức - ';
 			}
 			if($page=='tuyen-dung'){
-				$title='Tuyển dụng - Bình Minh Computer';
+				$title='Tuyển dụng - ';
 			}
 			if($page=='ho-tro'){
-				$title='Hỗ trợ khách hàng- Bình Minh Computer';
+				$title='Hỗ trợ khách hàng- ';
 			}
 			if($page=='tim-kiem'){
-				$title='Tìm kiếm sản phẩm - Bình Minh Computer';
+				$title='Tìm kiếm sản phẩm -';
 			}
 			
 	}
