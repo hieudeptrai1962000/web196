@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `cauhinh` (
 --
 
 INSERT INTO `cauhinh` (`url`, `title`, `description`, `keyword`, `logo`) VALUES
-('http://binhminhcomputer.com/', 'Bình Minh Computer - Siêu thị máy tính hàng đầu Việt Nam', 'Siêu thị máy tính Bình Minh Computer. Chuyên cung cấp sản phẩm máy tính, các phụ kiện máy tính, thiết bị kỹ thuật số.', 'may tinh xach tay, may tinh ca nhan, laptop, pc, may tinh ban, may tinh bang, tablet PC, phu kien may tinh, loa ky thuat so, chuot quang, usb, ban phimm may tinh', 'http://binhminhcomputer.com/images/logo.png');
+(' Chuyên cung cấp sản phẩm', 'http://hieu/images/logo.png');
 
 -- --------------------------------------------------------
 
